@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 800,
+    "id" : "https://eldjouher-wq.github.io/iiif/images/PHOTO/canvas/",
+    "label" : {
+      "none" : [ "PHOTO" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://eldjouher-wq.github.io/iiif/images/PHOTO/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://eldjouher-wq.github.io/iiif/images/PHOTO/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 25,
+              "height" : 19
+            }, {
+              "width" : 50,
+              "height" : 38
+            }, {
+              "width" : 100,
+              "height" : 75
+            }, {
+              "width" : 200,
+              "height" : 150
+            }, {
+              "width" : 400,
+              "height" : 300
+            }, {
+              "width" : 800,
+              "height" : 600
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 800,
+            "@id" : "https://eldjouher-wq.github.io/iiif/images/PHOTO",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 600
+          } ],
+          "format" : "image/jpeg",
+          "width" : 800,
+          "id" : "https://eldjouher-wq.github.io/iiif/images/PHOTO/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 600
+        },
+        "target" : "https://eldjouher-wq.github.io/iiif/images/PHOTO/canvas/"
+      } ]
+    } ],
+    "height" : 600
+  }, {
     "width" : 830,
     "id" : "https://eldjouher-wq.github.io/iiif/images/flower-myth-1918-82_paul-klee/canvas/",
     "label" : {
