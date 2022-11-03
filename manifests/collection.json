@@ -9,9 +9,5 @@
     "@type" : "sc:Manifest",
     "@id" : "https://eldjouher-wq.github.io/iiif/manifests/manifest_exemple.json",
     "label" : "[Click to edit label]"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://eldjouher-wq.github.io/iiif/manifests/manifestexemple.json",
-    "label" : "[Click to edit label]"
   } ]
 }
