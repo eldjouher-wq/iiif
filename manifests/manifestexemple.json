@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://eldjouher-wq.github.io/iiif/manifests/manifestexemple.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://d91924e2-7299-43a1-a457-b87c535a2210",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://95d4e4d5-6cee-4959-94a1-a419ed0a1674",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1250,
+      "width" : 830,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d76a1dd9-8245-4a18-bb0b-65e444e1e310",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://eldjouher-wq.github.io/iiif/images/flower-myth-1918-82_paul-klee/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://eldjouher-wq.github.io/iiif/images/flower-myth-1918-82_paul-klee",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1250,
+          "width" : 830
+        },
+        "on" : "http://95d4e4d5-6cee-4959-94a1-a419ed0a1674"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
